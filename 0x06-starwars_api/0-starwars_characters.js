@@ -10,7 +10,7 @@ request(url, (error, response, body) => {
     console.error('Error:', error);
     return;
   }
-  
+
   if (response.statusCode !== 200) {
     console.error('Invalid status code:', response.statusCode);
     return;
